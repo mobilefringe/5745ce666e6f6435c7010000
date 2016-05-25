@@ -93,11 +93,11 @@
         var s1 = getStoresListByCategoryID(4082)
         var s2 = getStoresListByCategoryID(4083)
         var s3 = getStoresListByCategoryID(4084)
-        var s4 = getStoresListByCategoryID(4044)
+       
         stores = stores.concat(s1)
         stores = stores.concat(s2)
         stores = stores.concat(s3)
-        stores = stores.concat(s4)
+     
         
         renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "M");
         renderStoreList('#store_list_container2','#store_list_template2', stores, "stores","M", "Z" );
