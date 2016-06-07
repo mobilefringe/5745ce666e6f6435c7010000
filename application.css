@@ -37,10 +37,7 @@ body{
     display:none;
 }
 
-.promo_exist{
-    padding: 10px 0;
-    color: $layout_color;
-}
+
 
 .hidden_phone{
     display:block;
