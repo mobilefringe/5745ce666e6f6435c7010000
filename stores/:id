@@ -12,8 +12,8 @@
                     <p class="colored_link" style="{{phone_show}}">Phone</p>
                     <a class="side_link" style="{{phone_show}}" href="tel:{{phone}}">{{phone}}</a>
                     <p class="colored_link" style="">Address</p>
-                    <p class="side_link">
-                        7575 Carson Blvd, Long Beach, CA 90808
+                     <p class="side_link">
+                        {{unit}}
                     </p>
                     <a class="main_btn animated_btn" href="{{website}}" target="_blank" style="{{show}}">Visit Website</a>
                 </div>
