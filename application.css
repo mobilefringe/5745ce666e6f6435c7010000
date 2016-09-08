@@ -509,7 +509,7 @@ body{
     height: 16px;
     border: 2px solid #fff;
     background: transparent;
-    display:none;
+    display:none; !important
 }
 
 .flex-control-paging li a.flex-active{
