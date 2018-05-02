@@ -80,6 +80,7 @@
                 <li><a href="#" id="mobile_dd">CENTER INFORMATION</a></li>
                 <li class="hidden_now mobile_menu_dd"><a href="/pages/longbeach-services">SERVICES</a></li>
                 <li class="hidden_now mobile_menu_dd"><a href="/pages/longbeach-contact-us">CONTACT</a></li>
+                <li class="hidden_now mobile_menu_dd"><a href="/pages/longbeach-pop-ups-specialty-leasing">POP-UP &<br>SPECIALTY LEASING</a></li>
             </ul>
         </div>
         <div class="row">
