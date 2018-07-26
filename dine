@@ -87,7 +87,7 @@
         right: auto;
     }
     #category_container li.active {
-        color: ##79a185;
+        color: #79a185;
     }
 </style>
 <script>
