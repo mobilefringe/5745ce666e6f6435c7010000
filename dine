@@ -93,7 +93,7 @@
         console.log("dining_cat", dining_cat);
         console.log("subcategories", subcategories);
         $.each( subcategories , function( key, val ){
-            $("#category_container").append("<li class="show_cat_stores" data-id="4084">Quick Bites</li>")
+            $("#category_container").append("<li class='show_cat_stores' data-id='"+val.id+"'>"+Quick Bites+"</li>")
         });
         // category_container
         var stores = [];
