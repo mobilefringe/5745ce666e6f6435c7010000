@@ -86,6 +86,9 @@
         left: 10px;
         right: auto;
     }
+    #category_container li.active {
+        
+    }
 </style>
 <script>
     $(document).ready(function(e){
