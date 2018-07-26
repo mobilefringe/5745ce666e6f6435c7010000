@@ -12,9 +12,9 @@
         </a>
         <ul id="category_container2" class="dropdown-menu" aria-labelledby="cat_dd2">
             <li href="#" class="show_all_stores">All</li>
-            <li class="show_cat_stores" data-id="4082">Restaurants</li>
-            <li class="show_cat_stores" data-id="4083">Dessert</li>
-            <li class="show_cat_stores" data-id="4084">Quick Bites</li>
+            <!--<li class="show_cat_stores" data-id="4082">Restaurants</li>-->
+            <!--<li class="show_cat_stores" data-id="4083">Dessert</li>-->
+            <!--<li class="show_cat_stores" data-id="4084">Quick Bites</li>-->
            
         </ul>
     </div>
