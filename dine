@@ -92,7 +92,7 @@
         var subcategories = getSubcategoriesByParentID(dining_cat.id);
         console.log("dining_cat", dining_cat);
         console.log("subcategories", subcategories);
-        $.each( store_promos , function( key, val ){
+        $.each( subcategories , function( key, val ){
             today = moment();
             webDate = moment(val.show_on_web_date);
             if (today >= webDate) {
