@@ -93,11 +93,7 @@
         console.log("dining_cat", dining_cat);
         console.log("subcategories", subcategories);
         $.each( subcategories , function( key, val ){
-            today = moment();
-            webDate = moment(val.show_on_web_date);
-            if (today >= webDate) {
-                published_promos.push(val)
-            } 
+            
         });
         // category_container
         var stores = [];
