@@ -90,7 +90,7 @@
     function renderPage(){
         var dining_cat = getCategoryDetailsByName('Dining');
         var subcategories = getSubcategoriesByParentID(dining_cat.id);
-        console.log("dining_cat");
+        console.log("dining_cat", dining_cat);
         console.log("subcategories", subcategories)
         var stores = [];
         var s1 = getStoresListByCategoryID(4082)
