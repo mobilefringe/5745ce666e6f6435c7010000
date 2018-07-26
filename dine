@@ -92,7 +92,13 @@
         var subcategories = getSubcategoriesByParentID(dining_cat.id);
         console.log("dining_cat", dining_cat);
         console.log("subcategories", subcategories);
-        
+        $.each( store_promos , function( key, val ){
+            today = moment();
+            webDate = moment(val.show_on_web_date);
+            if (today >= webDate) {
+                published_promos.push(val)
+            } 
+        });
         // category_container
         var stores = [];
         var s1 = getStoresListByCategoryID(4082)
