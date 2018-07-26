@@ -82,7 +82,12 @@
 </script>
 
 <style>
-    
+    #category_container {
+    width: 250px;
+    padding: 10px;
+    left: 10px;
+    right: auto;
+}
 </style>
 <script>
     $(document).ready(function(e){
