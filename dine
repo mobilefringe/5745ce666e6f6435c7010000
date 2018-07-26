@@ -81,6 +81,9 @@
     <li class="show_cat_stores" data-id="{{id}}">{{name}}</li>    
 </script>
 
+<style>
+    
+</style>
 <script>
     $(document).ready(function(e){
         init(e);
