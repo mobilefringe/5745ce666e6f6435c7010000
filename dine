@@ -36,7 +36,7 @@
                     <img src="//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/png/1463153622000/chevron_down.png" class="category_icon" alt="">
                 </a>
                 <ul id="category_container" class="dropdown-menu" aria-labelledby="cat_dd">
-                    <li href="#" class="show_all_stores">All Cuisine</li>
+                    <li href="#" class="active show_all_stores">All Cuisine</li>
                    <li class="show_cat_stores" data-id="4082">Restaurants</li>
                     <li class="show_cat_stores" data-id="4083">Dessert</li>
                     <li class="show_cat_stores" data-id="4084">Quick Bites</li>
