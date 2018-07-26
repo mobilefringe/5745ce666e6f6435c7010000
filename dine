@@ -91,7 +91,9 @@
         var dining_cat = getCategoryDetailsByName('Dining');
         var subcategories = getSubcategoriesByParentID(dining_cat.id);
         console.log("dining_cat", dining_cat);
-        console.log("subcategories", subcategories)
+        console.log("subcategories", subcategories);
+        
+        // category_container
         var stores = [];
         var s1 = getStoresListByCategoryID(4082)
         var s2 = getStoresListByCategoryID(4083)
