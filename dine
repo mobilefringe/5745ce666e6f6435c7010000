@@ -89,7 +89,7 @@
     
     function renderPage(){
         var dining_cat = getCategoryDetailsByName('Dining');
-        var subcategories = 
+        var subcategories = getSubcategories();
         var stores = [];
         var s1 = getStoresListByCategoryID(4082)
         var s2 = getStoresListByCategoryID(4083)
