@@ -125,8 +125,8 @@
         });
         $('.show_all_stores').click(function(e){
             $('#store_list_container, #store_list_container2').removeClass("full_width");
-            $('.active_cat').removeClass('active_cat');
-            $(this).addClass('active_cat');
+            $('.active').removeClass('active');
+            $(this).addClass('active');
             var rows = $('.cats_row');
             if ($(window).width() > 768){
                 rows.show();
