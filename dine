@@ -98,6 +98,7 @@
             $("#category_container2").append("<li class='show_cat_stores' data-id='"+val.id+"'>"+val.name+"</li>");
         });
         // category_container
+        var stores = getStoresListBySubcategory();
         var stores = [];
         var s1 = getStoresListByCategoryID(4082)
         var s2 = getStoresListByCategoryID(4083)
