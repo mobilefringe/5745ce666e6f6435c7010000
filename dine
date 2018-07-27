@@ -141,6 +141,7 @@
                     val.hour_string = "Closed"
                 } else {
                     val.hour_string = open_time.format("h:mma") + " - " + close_time.format("h:mma");
+                    console.log(open_time.format("h:mma") + " - " + close_time.format("h:mma"));
                 } 
             } else {
                 $('#today_store_hour_'+val.id).hide();
