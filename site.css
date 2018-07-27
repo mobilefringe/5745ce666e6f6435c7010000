@@ -56,7 +56,7 @@ $animation_color: #000;
 .store_container {
     .store_logo_container {
         .store_list_logo {
-            width: 100%;
+            max-width: 100%;
             border: 1px solid #D8D8D8;
         }
     }
