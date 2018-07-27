@@ -147,7 +147,7 @@
             rows.hide();
             $('.store_initial').hide();
             $('#current_category').text($(this).text());
-            $('#cat_name').css('display', 'block');
+            // $('#cat_name').css('display', 'block');
             $('#store_list_container').addClass("full_width");
             $.each(rows, function(i, val){
                 var cat_array = val.getAttribute('data-cat').split(',');
