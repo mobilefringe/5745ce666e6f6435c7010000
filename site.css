@@ -62,10 +62,10 @@ $animation_color: #000;
         }
     }
     .store_data_container {
-            background: #F2F2F2;
-    border: 1px solid #D8D8D8;
-    border-top: none;
-    padding-top: 10px;
+        background: #F2F2F2;
+        border: 1px solid #D8D8D8;
+        border-top: none;
+        padding-top: 10px;
         .store_list_name {
             font-size:22px;
         }
