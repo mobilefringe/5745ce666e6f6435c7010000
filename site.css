@@ -58,7 +58,6 @@ $animation_color: #000;
         .details_image {
             width: 100%;
             border: 1px solid #D8D8D8;
-            margin-bottom: 20px;
         }
     }
     .store_data_container {
