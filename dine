@@ -44,7 +44,7 @@
                     {{initial}}
                     <i class="fa fa-chevron-down visible_phone pull-right"></i>
                 </span>-->
-                <div class="row cats_row open_{{data_initial}}" data-cat="{{cat_list}}">
+                <div class="row cats_row open_{{data_initial}}col-sm-3" data-cat="{{cat_list}}">
                     <div>
                         <p class="store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                     </div>
