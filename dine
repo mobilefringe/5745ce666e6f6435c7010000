@@ -131,7 +131,7 @@
             }
             
             //create a subcat list
-            if(val.categories != null && val.categories != undefined){
+            if(val.subcategories != null && val.subcategories != undefined){
                 val.cat_list = val.categories.join(',');
             }
             
