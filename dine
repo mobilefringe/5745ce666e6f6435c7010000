@@ -109,6 +109,7 @@
         //     }
         // })
         $.each(stores, function(key, val){
+            //check if there's image for store, if not assign default
             if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
                 val.store_front_url = site_json.default_image;
             }
@@ -128,6 +129,8 @@
             } else {
                 $('#today_store_hour_'+val.id).hide();
             }
+            
+            
         });
         
         stores.sortBy(function(o){ return o.name })
