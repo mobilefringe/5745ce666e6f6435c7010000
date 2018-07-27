@@ -66,6 +66,8 @@ $animation_color: #000;
         border: 1px solid #D8D8D8;
         border-top: none;
         padding-top: 10px;
+            height: 150px;
+}
         .store_list_name {
             font-size: 20px;
             line-height: normal;
