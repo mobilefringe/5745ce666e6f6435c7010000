@@ -126,8 +126,6 @@
         
         stores.sortBy(function(o){ return o.name })
         renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "Z");
-        // var categories = getStoreCategories();
-        // renderGeneral('#category_container, #category_container2', '#category_template', categories);
         show_content();
         show_cat_stores();
     }
