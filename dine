@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col-md-2">
                 <a href="#" id="cat_dd" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    <span class="text-uppercase current_category">ALL CUISINE</span>
+                    <span class="text-uppercase" id="current_category">ALL CUISINE</span>
                     <img src="//codecloud.cdn.speedyrails.net/sites/57f503036e6f6454f2010000/image/png/1463153622000/chevron_down.png" class="category_icon" alt="">
                 </a>
                 <ul id="category_container" class="dropdown-menu" aria-labelledby="cat_dd">
