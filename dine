@@ -133,7 +133,7 @@
                 console.log("hours",hours);
                 console.log("today", moment.day());
                 today_day_of_week = moment.day();
-                var todays_hour = hours.filter(function(o){ return today_day_of_week }) 
+                var todays_hour = hours.filter(function(o){ return today_day_of_week === o.day_of_week }) 
             } else {
                 $('#today_store_hour_'+val.id).hide();
             }
