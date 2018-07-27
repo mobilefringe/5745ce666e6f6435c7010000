@@ -68,7 +68,7 @@ $animation_color: #000;
         padding-top: 10px;
         .store_list_name {
             font-size: 20px;
-    line-height: normal;
+            line-height: normal;
         }
     }
 }
