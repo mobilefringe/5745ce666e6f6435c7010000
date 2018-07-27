@@ -122,7 +122,9 @@
         //     }
         // })
         $.each(stores, function(key, val){
-            
+            if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
+                val.alt_store_front_url = "";
+            }
         })
         stores.sortBy(function(o){ return o.name })
         renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "M");
