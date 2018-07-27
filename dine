@@ -92,7 +92,7 @@
         //         var todays_hour = hours.filter(function(o){ return today_day_of_week === o.day_of_week; })[0];
         //         var open_time = moment(todays_hour.open_time).tz(getPropertyTimeZone());
         //         var close_time = moment(todays_hour.close_time).tz(getPropertyTimeZone());
-                if (val.hour_string = "Closed Today"){
+                if (val.hour_string === "Closed Today"){
         //             val.hour_string = "Closed Today"
                     $('#today_store_hour_'+val.id).addClass("red");
         //             console.log("hello" ,$('#today_store_hour_'+val.id));
