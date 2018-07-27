@@ -127,6 +127,7 @@
             $('#store_list_container, #store_list_container2').removeClass("full_width");
             $('.active').removeClass('active');
             $(this).addClass('active');
+            $('#current_category').text($(this).text());
             var rows = $('.cats_row');
             if ($(window).width() > 768){
                 rows.show();
