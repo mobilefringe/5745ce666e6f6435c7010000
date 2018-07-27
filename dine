@@ -141,8 +141,8 @@
     function show_cat_stores(){
         $('.show_cat_stores').click(function(e){
             var cat_id = $(this).attr('data-id');
-            $('.active_cat').removeClass('active_cat');
-            $(this).addClass('active_cat');
+            $('.active').removeClass('active');
+            $(this).addClass('active');
             var rows = $('.cats_row');
             rows.hide();
             $('.store_initial').hide();
