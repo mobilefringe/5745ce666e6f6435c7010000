@@ -45,7 +45,7 @@
                     <i class="fa fa-chevron-down visible_phone pull-right"></i>
                 </span>-->
                 <div class="cats_row open_{{data_initial}} col-sm-3" data-cat="{{cat_list}}">
-                    <div>
+                    <div class="store_container">
                         <p class="store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                     </div>
                 </div>
