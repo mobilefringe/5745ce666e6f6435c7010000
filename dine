@@ -116,7 +116,7 @@
                 var open_time = moment(todays_hour.open_time).tz(getPropertyTimeZone());
                 var close_time = moment(todays_hour.close_time).tz(getPropertyTimeZone());
                 if (todays_hour.is_closed == true){
-                    val.hour_string = "Closed"
+                    val.hour_string = "Closed Today"
                 } else {
                     val.hour_string = open_time.format("h:mma") + " - " + close_time.format("h:mma");
                 } 
