@@ -52,6 +52,7 @@
                         </div>
                         <div class="store_data_container">
                             <p class="store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                            <p class="today_store_hour"></p>
                         </div>
                     </div>
                 </div>
