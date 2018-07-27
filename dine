@@ -76,7 +76,7 @@
             $("#category_container").append("<li class='show_cat_stores' data-id='"+val.id+"'>"+val.name+"</li>");
             $("#category_container2").append("<li class='show_cat_stores' data-id='"+val.id+"'>"+val.name+"</li>");
         });
-        // category_container
+        
         var stores = getStoresListBySubcategory();
        
         $.each(stores, function(key, val){
