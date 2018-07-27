@@ -121,6 +121,9 @@
         //         unique[v.slug] = v;
         //     }
         // })
+        $.each(stores, function(key, val){
+            
+        })
         stores.sortBy(function(o){ return o.name })
         renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "M");
         renderStoreList('#store_list_container2','#store_list_template2', stores, "stores","M", "Z" );
