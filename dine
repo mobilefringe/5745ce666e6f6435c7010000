@@ -47,7 +47,7 @@
                 <div class="cats_row open_{{data_initial}} col-sm-3" data-cat="{{cat_list}}">
                     <div class="store_container">
                         <div class="store_logo_container"></div>
-                        <div class="store_dets_container">
+                        <div class="store_data_container">
                             <p class="store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                         </div>
                         
