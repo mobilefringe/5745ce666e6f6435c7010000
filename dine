@@ -44,7 +44,7 @@
                     {{initial}}
                     <i class="fa fa-chevron-down visible_phone pull-right"></i>
                 </span>-->
-                <div class="cats_row open_{{data_initial}} col-sm-3" data-cat="{{cat_list}}">
+                <div class="cats_row open_{{data_initial}} col-sm-3" data-cat="{{subcat_list}}">
                     <div class="store_container">
                         {{#is_new_store}}<img class="new_store_tag" src="//codecloud.cdn.speedyrails.net/sites/5b5a39ff6e6f64136f3c0000/image/png/1532704917337/tag-new.png"/>{{/is_new_store}}
                         <div class="store_logo_container">
