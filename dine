@@ -130,6 +130,10 @@
                 $('#today_store_hour_'+val.id).hide();
             }
             
+            //create a subcat list
+            if(val.categories != null && val.categories != undefined){
+            val.cat_list = val.categories.join(',');
+        }
             
         });
         
