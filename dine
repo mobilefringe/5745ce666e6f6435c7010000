@@ -132,7 +132,7 @@
                 var hours = getHoursForStoreSlug(store_details.slug).sortBy(function(o){ return o.day_of_week });
                 renderStoreDetailsHours('#reg_hours_container','#reg_hours_template', hours, 'reg_hours');
             } else {
-                $('.today_store_hour_').hide();
+                $('#today_store_hour_').hide();
             }
         });
         
