@@ -118,7 +118,7 @@
                 if (todays_hour.is_closed == true){
                     val.hour_string = "Closed Today"
                 } else {
-                    val.hour_string = open_time.format("h:mma") + " - " + close_time.format("h:mma");
+                    val.hour_string = "Hours: " + open_time.format("h:mma") + " - " + close_time.format("h:mma");
                 } 
             } else {
                 $('#today_store_hour_'+val.id).hide();
