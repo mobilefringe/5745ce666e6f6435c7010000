@@ -46,7 +46,7 @@
                 </span>-->
                 <div class="cats_row open_{{data_initial}} col-sm-3" data-cat="{{cat_list}}">
                     <div class="store_container">
-                        <div class="new_store_tag"></div>
+                        <img class="new_store_tag" src=""/>
                         <div class="store_logo_container">
                             <img src="{{store_front_url}}" style="{{show_main_image}}" class="store_list_logo" />
                         </div>
