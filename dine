@@ -35,9 +35,9 @@
         </div>
     </div>
     <div class="row content_container">
-        <!--<div class="col-md-12">-->
-        <!--    <span class="store_initial hidden_now" id="cat_name"></span>-->
-        <!--</div>-->
+        <div class="col-md-12">
+            <span class="store_initial hidden_now" id="cat_name"></span>
+        </div>
         <div id="store_list_container">
             <script id="store_list_template" type="x-tmpl-mustache/text">
                 <!--<span style="{{show}}" class="store_initial open_stores" data-initial="{{data_initial}}">
