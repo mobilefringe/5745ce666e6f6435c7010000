@@ -56,6 +56,17 @@
     
     <!-- Site data -->
     <script>
+        $.getJSON(getStorage().MM_URL).done(function(data){
+            mallData = data;
+            try {
+                getStorage().setItem('mallData', JSON.stringify(data));
+            } catch(e) {
+                getStorage().mallData = JSON.stringify(data);
+            }
+
+            log('done fetching mallData from: ' + getStorage().MM_URL);
+            callback();
+        });
         // setEndPoint('//longbeach.mallmaverick.com/api/v4/longbeach/all.json');
         setEndPoint('//longbeach.mallmaverickstaging.com/api/v4/longbeach/all.json?bust=true');
     </script>
