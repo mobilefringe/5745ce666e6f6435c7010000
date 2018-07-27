@@ -98,6 +98,7 @@
                     $(".today_store_hours").addClass("red");
                 } else {
                     val.hour_string = "Hours: " + open_time.format("h:mma") + " - " + close_time.format("h:mma");
+                    $(".today_store_hours").removeClass("red");
                 } 
             } else {
                 $('#today_store_hour_'+val.id).hide();
