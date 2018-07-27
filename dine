@@ -167,9 +167,9 @@
         var store_initial="";
         $.each( collection , function( key, val ) {
             //check if there's image for store, if not assign default
-            if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
-                val.store_front_url = site_json.default_image;
-            }
+            // if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
+            //     val.store_front_url = site_json.default_image;
+            // }
             //get today's hours per store
             var hour_ids = val.store_hours;
             if (hour_ids != null){
