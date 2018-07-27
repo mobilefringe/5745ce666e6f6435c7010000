@@ -46,7 +46,7 @@
                 </span>-->
                 <div class="cats_row open_{{data_initial}} col-sm-3" data-cat="{{cat_list}}">
                     <div class="store_container">
-                        <img class="new_store_tag" src="//codecloud.cdn.speedyrails.net/sites/5b5a39ff6e6f64136f3c0000/image/png/1532704917337/tag-new.png"/>
+                        {{#is_new_store}}<img class="new_store_tag" src="//codecloud.cdn.speedyrails.net/sites/5b5a39ff6e6f64136f3c0000/image/png/1532704917337/tag-new.png"/>
                         <div class="store_logo_container">
                             <img src="{{store_front_url}}" style="{{show_main_image}}" class="store_list_logo" />
                         </div>
