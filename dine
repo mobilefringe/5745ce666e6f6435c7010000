@@ -78,23 +78,7 @@
         });
         // category_container
         var stores = getStoresListBySubcategory();
-        // var stores = [];
-        // var s1 = getStoresListByCategoryID(4082)
-        // var s2 = getStoresListByCategoryID(4083)
-        // var s3 = getStoresListByCategoryID(4084)
        
-        // stores = stores.concat(s1)
-        // stores = stores.concat(s2)
-        // stores = stores.concat(s3)
-        
-        // var newarr = [];
-        // var unique = {};
-        // $.each(stores, function(i,v){
-        //     if (!unique[v.slug]) {
-        //         newarr.push(v);
-        //         unique[v.slug] = v;
-        //     }
-        // })
         $.each(stores, function(key, val){
             //check if there's image for store, if not assign default
             if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
