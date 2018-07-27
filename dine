@@ -99,14 +99,14 @@
         });
         // category_container
         var stores = getStoresListBySubcategory();
-        var stores = [];
-        var s1 = getStoresListByCategoryID(4082)
-        var s2 = getStoresListByCategoryID(4083)
-        var s3 = getStoresListByCategoryID(4084)
+        // var stores = [];
+        // var s1 = getStoresListByCategoryID(4082)
+        // var s2 = getStoresListByCategoryID(4083)
+        // var s3 = getStoresListByCategoryID(4084)
        
-        stores = stores.concat(s1)
-        stores = stores.concat(s2)
-        stores = stores.concat(s3)
+        // stores = stores.concat(s1)
+        // stores = stores.concat(s2)
+        // stores = stores.concat(s3)
         
         var newarr = [];
         var unique = {};
