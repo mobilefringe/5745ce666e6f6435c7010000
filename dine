@@ -104,8 +104,6 @@
     function renderPage(){
         var dining_cat = getCategoryDetailsByName('Dining');
         var subcategories = getSubcategoriesByParentID(dining_cat.id);
-        console.log("dining_cat", dining_cat);
-        console.log("subcategories", subcategories);
         // subcategories to dropdown
         $.each( subcategories , function( key, val ){
             $("#category_container").append("<li class='show_cat_stores' data-id='"+val.id+"'>"+val.name+"</li>");
