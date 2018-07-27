@@ -62,6 +62,8 @@ $animation_color: #000;
         }
     }
     .store_data_container {
-        
+        .store_list_name {
+            font-size:22px;
+        }
     }
 }
