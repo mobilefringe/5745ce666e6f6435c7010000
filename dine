@@ -126,7 +126,14 @@
             if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
                 val.store_front_url = site_json.default_image;;
             }
-        })
+        });
+        var hour_ids = store_details.store_hours;
+        if (hour_ids != null){
+            var hours = getHoursForStoreSlug(store_details.slug).sortBy(function(o){ return o.day_of_week });
+            renderStoreDetailsHours('#reg_hours_container','#reg_hours_template', hours, 'reg_hours');
+        } else {
+            $('#reg_hours_container').hide();
+        }
         stores.sortBy(function(o){ return o.name })
         renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "M");
         renderStoreList('#store_list_container2','#store_list_template2', stores, "stores","M", "Z" );
