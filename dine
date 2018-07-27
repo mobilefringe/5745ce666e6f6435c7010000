@@ -96,7 +96,7 @@
                 if (todays_hour.is_closed == true){
                     val.hour_string = "Closed Today"
                     $('#today_store_hour_'+val.id).addClass("red");
-                    console.log($('#today_store_hour_'+val.id));
+                    console.log("hello" ,$('#today_store_hour_'+val.id));
                 } else {
                     val.hour_string = "Hours: " + open_time.format("h:mma") + " - " + close_time.format("h:mma");
                     $('#today_store_hour_'+val.id).removeClass("red");
