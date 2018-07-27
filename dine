@@ -131,7 +131,9 @@
             if (hour_ids != null){
                 var hours = getHoursForStoreSlug(store_details.slug).sortBy(function(o){ return o.day_of_week });
                 console.log("hours",hours);
-                console.log("today", moment.day())
+                console.log("today", moment.day());
+                today_day_of_week = moment.day()l
+                var todays_hour = hours.filter(function(o){ return }) 
             } else {
                 $('#today_store_hour_'+val.id).hide();
             }
