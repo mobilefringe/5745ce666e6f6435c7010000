@@ -136,12 +136,12 @@
                 var todays_hour = hours.filter(function(o){ return today_day_of_week === o.day_of_week; }) 
                 console.log("todays_hour", todays_hour);
                 var open_time = moment(val.open_time).tz(getPropertyTimeZone());
-        var close_time = moment(val.close_time).tz(getPropertyTimeZone());
-        if (val.is_closed == true){
-            val.hour_string = "Closed"
-        } else {
-            val.hour_string = open_time.format("h:mma") + " - " + close_time.format("h:mma");
-        } 
+                var close_time = moment(val.close_time).tz(getPropertyTimeZone());
+                if (val.is_closed == true){
+                    val.hour_string = "Closed"
+                } else {
+                    val.hour_string = open_time.format("h:mma") + " - " + close_time.format("h:mma");
+                } 
             } else {
                 $('#today_store_hour_'+val.id).hide();
             }
