@@ -112,6 +112,7 @@
             if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
                 val.store_front_url = site_json.default_image;
             }
+            //get today's hours per store
             var hour_ids = val.store_hours;
             if (hour_ids != null){
                 var hours = getHoursForStoreSlug(val.slug).sortBy(function(o){ return o.day_of_week });
