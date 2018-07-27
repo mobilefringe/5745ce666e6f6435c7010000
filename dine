@@ -134,7 +134,7 @@
                 console.log("today", moment().day());
                 today_day_of_week = moment().day();
                 var todays_hour = hours.filter(function(o){ return today_day_of_week === o.day_of_week; }) 
-                console.log("todays_hour", todays_hour.open_time);
+                console.log("todays_hour", todays_hour);
                 var open_time = moment(todays_hour.open_time).tz(getPropertyTimeZone());
                 var close_time = moment(todays_hour.close_time).tz(getPropertyTimeZone());
                 if (todays_hour.is_closed == true){
