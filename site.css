@@ -54,9 +54,9 @@ $animation_color: #000;
 }
 
 .store_container {
-.details_image {
-    width: 100%;
-    border: 1px solid #D8D8D8;
-    margin-bottom: 20px;
-}
+    .details_image {
+        width: 100%;
+        border: 1px solid #D8D8D8;
+        margin-bottom: 20px;
+    }
 }
