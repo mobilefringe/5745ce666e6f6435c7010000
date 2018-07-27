@@ -50,7 +50,6 @@
                         <div class="store_data_container">
                             <p class="store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                         </div>
-                        
                     </div>
                 </div>
             </script>
