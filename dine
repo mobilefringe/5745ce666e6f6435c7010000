@@ -48,7 +48,7 @@
                     <div class="store_container">
                         <div class="store_logo_container"></div>
                         <div class="store_dets_container">
-                        <p class="store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                            <p class="store_list_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                         </div>
                         
                     </div>
