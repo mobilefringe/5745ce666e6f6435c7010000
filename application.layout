@@ -56,11 +56,11 @@
     
     <!-- Site data -->
     <script>
-        $.getJSON("//longbeach.mallmaverickstaging.com/api/v4/longbeach/subcategories.json?bust=true").done(function(data){
+        $.getJSON("//longbeach.mallmaverick.com/api/v4/longbeach/subcategories.json?bust=true").done(function(data){
             
         });
         // setEndPoint('//longbeach.mallmaverick.com/api/v4/longbeach/all.json');
-        setEndPoint('//longbeach.mallmaverickstaging.com/api/v4/longbeach/all.json?bust=true');
+        setEndPoint('//longbeach.mallmaverick.com/api/v4/longbeach/all.json');
     </script>
 </head>
 
