@@ -97,9 +97,9 @@
                     <a href="//www.facebook.com/LBTowneCenter" target="_blank">
                         <span id="social_facebook"></span>
                     </a>
-                    <a href="//twitter.com/LBTowneCentr" target="_blank">
-                        <span id="social_twitter"></span>
-                    </a>
+                    <!--<a href="//twitter.com/LBTowneCentr" target="_blank">-->
+                    <!--    <span id="social_twitter"></span>-->
+                    <!--</a>-->
                     <!--<a href="#" target="_blank">-->
                     <!--    <span id="social_pinterest"></span>-->
                     <!--</a>-->
